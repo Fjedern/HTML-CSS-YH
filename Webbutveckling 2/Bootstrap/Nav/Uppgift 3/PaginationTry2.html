@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav
+<div class="container">
+  <h2>Pagination - site</h2>
+  <ul class="pagination justify-content-center">
+    <li class='page-item'><a class='page-link' data-toggle="tab" href="#tab1">1</a></li>
+    <li class='page-item'><a class='page-link' data-toggle="tab" href="#tab2">2</a></li>
+    <li class='page-item'><a class='page-link' data-toggle="tab" href="#tab3">3</a></li>
+  </ul>
+</div>
+</nav>
+<div id="tabcont" class="tab-content">
+  <div id="tab1" class="tab-pane">name1</div>
+  <div id="tab2" class="tab-pane">name2</div>
+  <div id="tab3" class="tab-pane">name3</div>
+  <div id="tab4" class="tab-pane">name4</div>
+  <div id="tab5" class="tab-pane">name5</div>
+</div>
+
+
+<script>
+	var i = null;
+  $(document).on('click', 'a[data-toggle="tab"]', function() {
+    console.log(i);
+    console.log($(this).text());
+    if ($(this).text() >= 3) {
+      if (i < 3 || i === null) {
+        $('.pagination').html('<li class='page-item'><a class='page-link' data-toggle="tab" href="#tab2">2</a></li><li><a data-toggle="tab" href="#tab3">3</a></li><li><a data-toggle="tab" href="#tab4">4</a></li><li><a data-toggle="tab" href="#tab5">5</a></li>');
+      }
+      i = $(this).text();
+
+    } else {
+      if (i >= 3 || i === null) {
+        $('.pagination').html('<li><a data-toggle="tab" href="#tab1">1</a></li><li><a data-toggle="tab" href="#tab2">2</a></li><li><a data-toggle="tab" href="#tab3">3</a></li>');
+      }
+      i = $(this).text();
+    }
+  });
+</script>
+
+</body>
+</html>
+

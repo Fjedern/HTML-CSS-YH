@@ -1,0 +1,53 @@
+#center {
+    text-align: center;
+    
+}
+
+#greenBox {
+    background-color: lightgreen;
+}
+
+#borderBox {
+    border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px blue;
+}
+
+#font {
+	font-family:georgia,garamond,serif;
+	font-size:16px;
+	font-style:italic;
+}
+
+#grey {
+	background-color: grey;
+}
+
+#borderBoxRed {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 2px 8px red;
+}
+
+#gradient1 {
+	background-image: linear-gradient(yellow, lightgreen);
+}
+
+#borderDotRed {
+	border: 5px dashed red;
+}
+
+#gradient2 {
+	background-image: radial-gradient( yellow, lightgreen);
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang='sv'>
+	<head>
+		<meta charset='utf-8'>
+		<title>ananas</title>
+		<link rel='stylesheet' href='CSS/ParallaxScrolling.css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+		
+		<!-- Link to JQuery source code -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- JQuery for smooth scrolling -->
+		<script>
+			var offset = 0;
+			$(document).ready(function()
+			{
+				$("a").on('click', function(event) 
+				{
+					if (this.hash !== "") 
+					{
+						event.preventDefault();
+						var hash = this.hash;
+						$('html, body').animate({ scrollTop: $(hash).offset().top + offset}, 800);
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class='header'>
+			<img src='Pics/LogoPlanetNoText50x76TEST.png' alt='minilogo'>
+			<a href='#milk'>TOP</a>
+			<a href='#solarsystem'>SOLARSYSTEM</a>
+			<a href='#venus'>VENUS</a>
+			<a href='#earth'>EARTH</a>
+			<a href='#mars'>MARS</a>
+			<a href='#jupiter'>JUPITER</a>
+			<a href='#saturn'>SATURN</a>
+			<a href='#uranus'>URANUS</a>
+			<a href='#footer' style='float: right;'>ABOUT</a>
+		</div>
+		
+		<div id='milk' class='panel'>
+			<!-- arrows -->
+			<a class='leftnav' href='#uranus'><span class="fas fa-space-shuttle fa-2x fa-rotate-270"></span></a>
+			<a class='leftnav2' href='#solarsystem'><span class="fas fa-space-shuttle fa-2x fa-rotate-90"></span></a>
+			<!-- end of arrows -->
+			<div class='info'>
+				<img src='Pics/LogoPlanetNoText.png' width="250" height="163" style="transform: translate(13%, 0%);">
+				<h1>SPACE</h1>
+				<p>A quick glimpse of space</p>	
+				<a class='button' href='#uranus'>Check it out!</a>
+			</div>
+		</div>
+		<div id='solarsystem' class='panel'></div>
+		<div id='solarsystemcontent' class='panel'>
+			<div class='leftnav'>
+				<a href='#milk'><span class="fas fa-space-shuttle fa-2x fa-rotate-270"></span></a>
+				<a href='#venus'><span class="fas fa-space-shuttle fa-2x fa-rotate-90"></span></a>
+			</div>
+			<div class='info'>
+				<h1>Solarsystem</h1>
+				<p>An overview of our solarsystem</p>
+			</div>
+		</div>		
+		
+		<div id='venus' class='panel'></div>
+		<div id='venuscontent' class='panel'>
+			<!-- arrows -->
+			<a class='leftnav' href='#solarsystem'><span class="fas fa-space-shuttle fa-2x fa-rotate-270"></span></a>
+			<a class='leftnav2' href='#earth'><span class="fas fa-space-shuttle fa-2x fa-rotate-90"></span></a>
+			<!-- end pfarrows -->
+			<div class='info'>
+				<h1>Venus</h1>
+				<p>Second planet from the sun and has the longest rotation period</p>
+			</div>
+		</div>
+		<div id='earth' class='panel'>
+			<!-- arrows -->
+			<a class='leftnav' href='#venus'><span class="fas fa-space-shuttle fa-2x fa-rotate-270"></span></a>
+			<a class='leftnav2' href='#mars'><span class="fas fa-space-shuttle fa-2x fa-rotate-90"></span></a>
+			<!-- end pfarrows -->
+			<div class='info'>
+				<h1>Earth</h1>
+				<p>Our home planet, the planet <br>is about 4.54 billion years old</p>
+				<a class='button' href='#milk'>Check it out!</a>
+			</div>
+		</div>
+		<div id='mars' class='panel'>
+			<!-- arrows -->
+			<a class='leftnav' href='#earth'><span class="fas fa-space-shuttle fa-2x fa-rotate-270"></span></a>
+			<a class='leftnav2' href='#jupiter'><span class="fas fa-space-shuttle fa-2x fa-rotate-90"></span></a>
+			<!-- end pfarrows -->
+			<div class='info'>
+				<h1>Mars</h1>
+			</div>
+		</div>
+		<div id='jupiter' class='panel'>
+			<!-- arrows -->
+			<a class='leftnav' href='#mars'><span class="fas fa-space-shuttle fa-2x fa-rotate-270"></span></a>
+			<a class='leftnav2' href='#saturn'><span class="fas fa-space-shuttle fa-2x fa-rotate-90"></span></a>
+			<!-- end pfarrows -->
+			<div class='info'>
+				<h1>Jupiter</h1>
+			</div>
+		</div>
+		<div id='saturn' class='panel'>
+			<!-- arrows -->
+			<a class='leftnav' href='#jupiter'><span class="fas fa-space-shuttle fa-2x fa-rotate-270"></span></a>
+			<a class='leftnav2' href='#uranus'><span class="fas fa-space-shuttle fa-2x fa-rotate-90"></span></a>
+			<!-- end pfarrows -->
+			<div class='info'>
+				<h1>Saturn</h1>
+			</div>
+		</div>
+		<div id='uranus' class='panel'>
+			<!-- arrows -->
+			<a class='leftnav' href='#saturn'><span class="fas fa-space-shuttle fa-2x fa-rotate-270"></span></a>
+			<a class='leftnav2' href='#milk'><span class="fas fa-space-shuttle fa-2x fa-rotate-90"></span></a>
+			<!-- end pfarrows -->
+			<div class='info'>
+				<h1>Uranus</h1>
+			</div>
+		</div>
+		<div id='footer' class='panel'>
+			<a href="https://lipis.github.io/flag-icon-css" target='_blank'>
+				<span class="fas fa-flag"></span> flag-icon-css
+			</a>
+			<a href="https://fontawesome.com/" target='_blank'>
+				<span class="fas fa-awesome-flag"></span> font awesome
+			</a>
+			<a href="https://jquery.com//" target='_blank'>
+				<span class="fas fa-bolt"></span> jQuery
+			</a>
+			<a href="https://fonts.google.com/" target='_blank'>
+				<span class="fas fa-google"></span> google fonts
+			</a>
+			<a href="https://youtu.be/ZcLqQZxpz_4?t=31s" target='_blank'>
+				<span class="fas fa-copyright"></span> Bapelsin Software AB
+			</a>
+		</div>
+	</body>
+</html>

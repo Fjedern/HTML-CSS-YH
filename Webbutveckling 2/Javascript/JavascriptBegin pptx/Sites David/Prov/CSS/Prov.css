@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	/* background-image: url('../images/mountains.png'); */
+	/* background-position: center center; */
+	/* background-repeat: no-repeat; */
+	/* background-size: cover; */
+}
+
+.panel {
+	height: 531px;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+	/* border: 2px solid red; */
+}
+
+#background {
+	background-image: url('../images/mountains.png');
+	background-position: center top;
+	
+	display: flex;
+}
+
+.guides {
+	margin-left: 50px;
+	color: white;
+	/* height: 500px; */
+	/* background: linear-gradient(to bottom, #9eb3e1 0%, #c3a4dc 100%); */
+	background-image: linear-gradient(to bottom, rgba(157, 178, 224,0), rgba(195, 164, 221,1));
+	/* background-image: linear-gradient(to bottom, rgba(157, 178, 224, 0.3), rbga(195, 164, 221, 0.3)); */
+	padding: 10px;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+	box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+}
+
+.persons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+img {
+	flex: 1;
+	height: 100px;
+	width: 100px;
+	border: 1px solid white;
+	border-radius: 100px;
+}
+
+.center {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: underline;
+}
+
+.signup {
+	margin-left: 50px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5px;
+	background-image: linear-gradient(to bottom, rgba(157, 178, 224,0), rgba(195, 164, 221,1));
+	color: white;
+	width: 300px;
+	box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+	
+}
+
+.fields {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	flex: 1;
+}
+
+.button {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	border: 1px solid white;
+	padding: 10px;
+	width: 100%;
+}
+
+a {
+	color: white;
+}
+
+
+
+

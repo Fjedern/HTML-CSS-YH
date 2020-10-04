@@ -1,0 +1,146 @@
+body {
+	/* height: 100vh; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+}
+
+.center {
+	margin-top: 55vh;
+	display: flex;
+	flex: 1;
+	/* max-width: 1366px; */
+	flex-direction: column;
+	height: 200vh;
+	width: 90vw;
+	max-width: 1366px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.header {
+	flex: 0 0 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	color: darkblue;
+	/* flex: 1; */
+}
+
+p {
+	font-size: 10px;
+}
+
+
+.navbar {
+	/* justify-content: flex-end; */
+	display: flex;
+	flex: 0 0 8vh;
+	
+}
+
+a {
+	flex: 1;
+}   
+
+.container {
+	flex: 1;
+	display: flex;
+}
+
+.footer {
+	flex: 0 0 10vh;
+}
+
+.side {
+	flex: 0 0 45%;
+	display: flex;
+	flex-direction: column;
+}
+
+.image1 {
+	flex: 2;
+	
+}
+
+.image2 {
+	flex: 1;
+}
+
+.main {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.imagemain {
+	flex: 3;
+}
+
+#checkbox, .toggle {
+	display: none;
+}
+
+@media screen and (min-width: 1367px) {
+	body {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.container, .navbar {
+		flex-direction: column;
+	}
+	
+	.side {
+		height: 40vh;
+	}
+	
+	.container {
+		height: 125vh;
+	}
+	
+	.center {
+		margin-top: 50vh;
+	}
+	
+	.toggle {
+		display: block;
+		text-align: center;
+		line-height: 45px;
+		cursor: pointer;
+		height: 50px;
+	}
+	
+	.navbar {
+		height: 0px;
+		transition: all .4s linear;
+	}
+	
+	.navbar a {
+		visibility: hidden;
+		
+	}
+
+	#checkbox:checked + label .navbar{
+		height: 160px;
+	}
+	
+	#checkbox:checked + label .navbar a {
+		visibility: visible;
+		flex: 0 0 5vh;
+	}
+}
+
+
+
+
+
+

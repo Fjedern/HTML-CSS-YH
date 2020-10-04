@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script type="text/javascript">
+
+            var cities = ["Dubai", "Paris", "Mambai", "Dallas", "Houston", "Madrid"];
+            document.write("ALLA STÄDER" + "<br>" + "<br>");
+            cities.forEach(städer);
+            
+
+            var city = prompt("Lägg till stad", "ANANAS");
+            var city2 = prompt("Lägg till stad2", "ÄPPLE");
+            var city3 = prompt("Lägg till stad3", "AAAAAAAAAAAAAA");
+            // for ( i = 0; i < 4; i++){
+            //     cities.push(city);
+            // }
+            cities.push(city);
+            cities.push(city2);
+            cities.push(city3);
+            
+            document.write("TRE EXTRA" + "<br>");
+            cities.forEach(städer);
+            
+
+            cities.pop(city);
+            document.write("EFTER POP" + "<br>");
+            cities.forEach(städer);
+            
+
+            cities.shift();
+            document.write("EFTER SHIFT" + "<br>");
+            cities.forEach(städer);
+
+
+            cities.splice(2, "Stockholm");
+            document.write("EFTER SPLICE" + "<br>");
+            cities.forEach(städer);
+
+            cities.delete(2);
+            document.write("EFTER SPLICE" + "<br>");
+            cities.forEach(städer);
+
+            function städer(value, index){
+                document.write("cities[" + index + "] = " + cities[index] + "<br>");
+            }
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,28 @@
+body{
+	background-color: lightblue;
+	font-family:'Courier New', Courier, monospace;
+	font-size: 1em;
+}
+
+a{
+	outline: none;
+	text-decoration: none;
+}
+
+.one:link{
+	color: #blue;
+}
+
+.two:visited{
+	color: lightgreen;
+}
+
+.three:hover{
+	background: green;
+	box-shadow: 6px 6px 5px #888888;
+}
+	
+.four:active{
+	background: green;
+	color: lightgreen;
+}

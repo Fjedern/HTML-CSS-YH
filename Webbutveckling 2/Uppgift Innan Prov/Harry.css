@@ -1,0 +1,30 @@
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FFC0CB;
+	font-weight: bold;
+	transition-duration: 2s;
+	background: rgb(34,195,61);
+	background: linear-gradient(0deg, rgba(34,195,61,1) 0%, rgba(231,253,45,1) 100%);
+}
+
+.bigLetter {
+	font-size: 3em;
+	color: firebrick;
+	float: left;
+}
+
+.gradient {
+	background: rgb(34,195,61);
+	background: linear-gradient(0deg, rgba(34,195,61,1) 0%, rgba(231,253,45,1) 100%);
+}

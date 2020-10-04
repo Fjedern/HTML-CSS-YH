@@ -1,0 +1,52 @@
+body {
+	background-image: url("../Pics/railroad.jpg");
+	/* background-repeat: no-repeat;  */
+	background-position: center;
+	height: 97vh;
+	
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#test {
+	width: 50%;
+	/* text-align: center; */
+	padding: 10px;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+#box{
+	background-color: red;
+	height: 20px;
+	width: 20px;
+}
+
+img {
+	padding: 0px;
+	border: 5px solid white;
+	border-radius: 11px;
+	margin: 15px;
+	height: 70px;
+	widht: 100px;
+}
+
+#First {
+	transform: rotate(10deg);
+	float: right;
+}
+
+#Second {
+	transform: rotate(-16deg);
+	float: right;
+	margin: 26px -68px 18px 10px;
+}
+
+#Third {
+	transform: rotate(-24deg);
+	float: left;
+	/* margin: 26px -68px 18px 10px; */
+}

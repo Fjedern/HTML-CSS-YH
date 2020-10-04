@@ -1,0 +1,262 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100vh;
+	width: calc(100vw - 20px);
+}
+
+/* Ändringar av Bootstrap Navbar */
+.navbar {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgb(184, 84, 80);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(248,206,204);
+}
+
+.navbar-dark .navbar-toggler {
+	border-color: #be0d01;
+}
+
+.navbar-toggler-icon {
+	color: blue;
+	background-color: #be0d01;
+}
+
+.panel {
+	position: relative;
+	height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	display: flex;
+	flex-direction: column;
+	/* flex-wrap: wrap; */
+}
+
+.panelEnd {
+	position: relative;
+	height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+#startsida {
+	background-image: url('../Pics/Hundar.JPG');
+}
+
+#jag {
+	background-image: url('../Pics/White.jpg');
+}
+
+#info {
+	background-image: url('../Pics/Utrustning.jpg');
+}
+
+.content {
+	flex: 1;
+	margin: 30px;
+	/* background-color: red; */
+	color: black;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
+.annanContent {
+	background-color: white;
+	color: black;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+.textbox{
+	margin: 10px;
+	flex: 2;
+	/* background-color: green; */
+	
+	font-size: 1.3em;
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+}
+
+.box {
+	flex: 1;
+	/* background-color: blue; */
+}
+
+h1 {
+	font-size: 1.4em;
+}
+
+p {
+	font-size: 0.9em;
+}
+
+.bild {
+	margin: 1px;
+	flex:1;
+	/* background-color: orange; */
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* flex-wrap: wrap; */
+
+}
+
+
+b {
+	color: #bd0304;
+}
+
+h1 {
+	color: black;
+}
+
+h2 {
+	color: black;
+}
+
+#footer {
+	height: 30%;
+	background-color: #bd0304;
+	text-align: center;
+}
+
+.footerContent {
+	margin: 3%;
+	/* background-color: blue; */
+	
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
+	flex: 1;
+	
+	color: white;
+	text-decoration: none;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+}
+
+@media screen and (max-width: 1277px) {
+	
+	h1 {
+		font-size: 1em;
+	}
+	
+	p {
+		font-size: 0.8em;
+	}
+	
+	.pic {
+		height: 300px;
+		width: 300px;
+	}
+	
+	.content {
+		flex-direction: column;
+		margin: 15px;
+	}
+	
+	.panel {
+		height: 120%;
+	}
+	
+	.textbox {
+		flex: 1;
+		flex-direction: row;
+		/* flex-wrap: wrap; */
+	}
+	
+	.box {
+		display: flex;
+		flex-direction: column;
+		/* flex-wrap: wrap; */
+		margin-right: 20px;
+	}
+	
+}
+
+@media screen and (max-width: 1127px) {
+	
+	.content {
+		margin: 5px;
+	}
+	
+	.textbox {
+		margin: 2px;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+	
+	.pic {
+		height: 200px;
+		width: 200px;
+	}
+	
+	.bild {
+		margin: 5px;
+	}
+}
+
+
+@media screen and (max-width: 630px) {
+	
+	.panel {
+		height: 140%;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	
+	.panel {
+		height: 150%;
+	}
+}
+
+	
+	
+	
+	
+	
+
+
+

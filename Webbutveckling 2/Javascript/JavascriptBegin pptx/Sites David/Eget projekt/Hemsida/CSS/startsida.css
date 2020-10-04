@@ -1,0 +1,25 @@
+body {
+	width: calc(100vw - 20px);
+	margin: 0px;
+	color: white;
+	background-color: grey;
+	box-sizing: border-box;
+}
+
+.navbar {
+	height: 50px;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	top: 0;
+  z-index: 999;
+	box-shadow: 0 7px 8px rgba(0,0,0, 0.12);
+}
+
+a {
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+
+}

@@ -1,0 +1,107 @@
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+	height: 100vh;
+	width: calc(100vw - 20px);
+	margin: 0px;
+	color: white;
+}
+
+.panel {
+	position: relative;
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#top {
+	/* background-image: url('../Pics/green.PNG'); */
+	background-color: #4AB14A;
+}
+
+.info {
+	display: inline;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#h1 {
+	
+}
+#test {
+	margin: -26px 0px 0px 26px;
+}
+
+#hello {
+	font-size: 8em;
+	color: #ecf0f1;
+	font-weight: 900;
+	margin: 0;
+}
+
+#resume {
+	color: #ecf0f1;
+	font-weight: 400;
+	margin: 0;
+	font-size: 20px;
+
+}
+
+#resume a {
+	transition: color 1s;
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
+#resume a:hover {
+	color: grey;
+}
+
+#me {
+	background-color: #4AB14A;
+	height: 70%;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#mecontent {
+	height: 30%;
+	background-color: #75CE75;
+}
+
+h1 {
+	margin: 0;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}

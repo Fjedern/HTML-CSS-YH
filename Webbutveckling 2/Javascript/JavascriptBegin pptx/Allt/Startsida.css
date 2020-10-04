@@ -1,0 +1,128 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+
+
+    margin: 0px;
+}
+
+#navbar {
+    height: 40px;
+	/* background-color: rgba(255,255,255,.2); */
+	
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	/* box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12); */
+	text-align: center;
+	
+	display: flex;
+    flex: 0 0 8vh;
+    justify-content: flex-end;
+	
+	/* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+}
+
+.navItem {
+    /* display: inline-block; */
+	font-weight: lighter;
+	font-size: 20px;
+	/* height: 50px; */
+	color: rgb(233, 233, 233);
+	/* padding: 20px 16px; */
+	text-decoration: none;
+	/* text-shadow: 0px 0px 8px #3b424f, 0px 0px 4px #FFF; */
+    transition: all 2s;
+    transition: border 1s;
+    margin-top: 5px;
+    display: inline-block;
+	position: relative;
+	/* background-color: salmon; */
+	/* margin-left: 5px; */
+	/* margin-right: 5px; */
+	
+	/* flex: 1; */
+	
+	/* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+
+    margin-right: 50px;
+
+    /* border-bottom: 1px solid white; */
+    /* padding-bottom: 1px; */
+}
+
+.navItem:after {
+    content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 100%;
+	background: white;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.navItem:hover:after {
+    width: 0%;
+	background: white;
+}
+
+.panel {
+	position: relative;
+	height: 100vh;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#top {
+	background-image: url("Bilder/AbstractArrayThing500samples.png");
+}
+
+#second {
+	background: rgb(164,165,166);
+	background: linear-gradient(0deg, rgba(164,165,166,1) 0%, rgba(97,107,118,1) 51%);
+	height: 100vh;
+	margin: 0px;
+}
+
+.box {
+	border: 3px solid white;
+	display: inline-block;
+	margin-top: 10%;
+	margin-left: 10%;
+	padding: 10px;
+	color: white;
+}
+
+.button {
+	border: 1px solid white;
+	border-radius: 15px;
+	padding: 6px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+h2 {
+	color: white;
+}
+
+
+
+

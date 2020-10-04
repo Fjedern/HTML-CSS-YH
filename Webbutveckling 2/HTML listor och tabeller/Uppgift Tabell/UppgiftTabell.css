@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+th, td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+tr{
+	height:100px;
+}
+tr#first{
+	vertical-align:top;
+}
+tr#second{
+	vertical-align:middle;
+
+}
+tr#third{
+	vertical-align:bottom;
+	/* border:3px dotted blue; */
+}
+tbody#streck tr:nth-child(odd) {
+  background: #777777;
+  opacity:0.5;
+}
+#green col:nth-child(1) {
+  background: lightgreen; 
+}
+td:hover { /* th:hover also if you wish */
+  background: yellow;
+}
+
+.one{
+	height: 10px;
+}
+
+
+
+.höjd {
+	height: 10px;
+}
+
+#grey {
+	background-color: lightgrey;
+	color: white;
+}

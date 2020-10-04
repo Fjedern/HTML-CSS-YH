@@ -1,0 +1,33 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	margin: 1em;
+	padding: 1em;
+	background: linear-gradient(#685957, #786966, #a7784d);
+	min-height: 93vh;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	max-width: 650px;
+	margin: auto;
+
+img {
+	margin-top: 8px;
+	margin-bottom: 16px;
+	width: 200px;
+	height: 267px;
+	border: solid 1px blue;
+}
+
+.floatright {
+	float: right;
+	magin-left: 8px;
+}
+
+.floatleft {
+	float: left;
+	margin-right: 40px;
+}

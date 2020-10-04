@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang='sv'>
+
+	<head>
+		<meta charset='utf-8'>
+		<title>FlexViwer</title>
+		<link rel='stylesheet' href='CSS/FlexViewerStyle.css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		
+	</head>
+	<body>
+		<div class='container'>
+			<div id='earth' class='square'>
+				<img src='Pics/200px/earth.jpg' alt='earth'>
+			</div>
+				
+			<div id='jupiter' class='square'>
+				<img src='Pics/200px/Jupiter.jpg' alt='Jupiter'>
+			</div>
+			<div id='mars' class='square'>
+				<img src='Pics/200px/Mars.jpg' alt='Mars'>
+			</div>
+			<div id='milk' class='square'>
+				<img src='Pics/200px/milky-way-wallpaper-1920x1080.jpg' alt='Milkyway'>
+			</div>
+			<div id='saturn' class='square'>
+				<img src='Pics/200px/Saturn.jpg' alt='Saturn'>
+			</div>
+			<div id='system' class='square'>
+				<img src='Pics/200px/SolarSystem3450x2065.jpg' alt='Solarsystem'>
+			</div>
+			<div id='uranus' class='square'>
+				<img src='Pics/200px/Uranus.jpg' alt='uranus'>
+			</div>
+			<div id='venus' class='square'>
+				<img src='Pics/200px/Venus.jpg' alt='Venus'>
+			</div>
+		</div>
+		<div id='viewer' class='viewer'></div>	
+
+		
+		
+		<script>
+			var earth = document.getElementById("earth");
+			var jupiter = document.getElementById("jupiter");
+			var mars = document.getElementById("mars");
+			var milk = document.getElementById("milk");
+			var saturn = document.getElementById("saturn");
+			var system = document.getElementById("system");
+			var uranus = document.getElementById("uranus");
+			var venus = document.getElementById("venus");	
+			//get viewer
+			var viewer = document.getElementById("viewer");
+			
+			//add listeners
+			earth.addEventListener("mouseenter", function ( event) {
+				viewer.style.backgroundImage = "url('pics/earth.jpg')";
+			}, false);
+			
+			jupiter.addEventListener("mouseenter", function ( event) {
+				viewer.style.backgroundImage = "url('pics/Jupiter.jpg')";
+			}, false);
+			
+			mars.addEventListener("mouseenter", function ( event) {
+				viewer.style.backgroundImage = "url('pics/Mars.jpg')";
+			}, false);
+			
+			milk.addEventListener("mouseenter", function ( event) {
+				viewer.style.backgroundImage = "url('pics/milky-way-wallpaper-1920x1080.jpg')";
+			}, false);
+			
+			saturn.addEventListener("mouseenter", function ( event) {
+				viewer.style.backgroundImage = "url('pics/Saturn.jpg')";
+			}, false);
+			
+			system.addEventListener("mouseenter", function ( event) {
+				viewer.style.backgroundImage = "url('pics/SolarSystem3450x2065.jpg')";
+			}, false);
+			
+			uranus.addEventListener("mouseenter", function ( event) {
+				viewer.style.backgroundImage = "url('pics/Uranus.jpg')";
+			}, false);
+			
+			venus.addEventListener("mouseenter", function ( event) {
+				viewer.style.backgroundImage = "url('pics/Venus.jpg')";
+			}, false);
+		</script>
+		
+	</body>
+</html>

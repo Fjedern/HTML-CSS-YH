@@ -1,0 +1,53 @@
+body{
+	background-color: grey;
+}
+
+div{
+	background-color: lightgreen;
+	color: black;
+	border-left: 10px solid;
+	margin: 20px;
+	width: 85px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.DagensNyheter{
+	border-color: Red;
+}
+
+.Sydsvenskan{
+	border-color: Orange;
+}
+
+.SvDagbladet{
+	border-color: Green;
+}
+
+.Aftonbladet{
+	border-color: lightblue;
+}
+
+
+
+
+.DagensNyheter:hover{
+	background-color: blue;
+}
+
+.Sydsvenskan:hover{
+	background-color: blue;
+}
+
+.SvDagbladet:hover{
+	background-color: blue;
+}
+
+.Aftonbladet:hover{
+	background-color: blue;
+}
+
+
+
+
+

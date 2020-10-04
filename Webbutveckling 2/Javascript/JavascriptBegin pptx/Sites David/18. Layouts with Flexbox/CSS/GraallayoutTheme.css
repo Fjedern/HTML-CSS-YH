@@ -1,0 +1,35 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: cursive;
+	font-size: 1.3em;
+	
+	color: #A0A090;
+	background-color: #fefefb;
+	border-width: 2px;
+	border-color: #A0A090;
+	border-style: dashed;
+	border-radius: 10px;
+	margin: 1px;
+}
+
+div {
+	color: 3474bf;
+	background-color: #9ed4ff;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: #3c7eca;
+	border-radius: 10px;
+	margin: 1px;
+}
+
+.flexsegment {
+	 /* color: #ffffff; */
+	background-color: white;
+	border-color: white;
+	padding: 1px;
+}

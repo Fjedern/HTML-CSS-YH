@@ -1,0 +1,210 @@
+body {
+	height: 100vh;
+	width: calc(100vw - 20px);
+	margin: 0px;
+	color: white;
+}
+
+.header {
+	height: 50px;
+	background-color: rgba(255,255,255,.2);
+	
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12);
+}
+
+.header a{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+	height: 20px;
+	color: white;
+	padding: 20px 16px;
+	text-decoration: none;
+	text-shadow: 0px 0px 8px #3b424f, 0px 0px 4px #FFF;
+	transition: color 1s;
+}
+
+.header a:hover{
+	color: #39539a;
+}
+
+.header img{
+	float: left;
+	height: 50px;
+	width: 76px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.panel {
+	position: relative;
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#milk {
+	background-image: url('../Pics/milky-way-wallpaper-1920x1080.jpg');
+}
+
+#solarsystem {
+	height: 70%;
+	background-image: url('../Pics/SolarSystem3450x2065.jpg');
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#solarsystemcontent{
+	height: 30%;
+	background-color: grey;
+}
+
+
+#venus {
+	height: 70%;
+	background-image: url('../Pics/Venus.jpg');
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#venuscontent {
+	height: 30%;
+}
+
+
+#earth {
+	background-image: url('../Pics/earth.jpg');
+}
+	
+#mars {
+	background-image: url('../Pics/Mars.jpg');
+}
+
+#jupiter {
+	background-image: url('../Pics/Jupiter.jpg');
+}
+
+#saturn {
+	background-image: url('../Pics/Saturn.jpg');
+}
+
+#uranus {
+	background-image: url('../Pics/Uranus.jpg');
+}
+
+.info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 300px;
+	text-shadow: 2px 2px black;
+}
+
+.infotop {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -131%);
+	min-width: 300px;
+	text-shadow: 2px 2px black;
+}
+
+.inforight {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(2%, -50%);
+	min-width: 300px;
+	text-shadow: 2px 2px black;
+}
+
+#extra {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 300px;
+	text-shadow: 2px 2px black;
+}
+
+
+h1 {
+ 
+	text-align: center;
+	font-size: 4em;
+}
+
+p {
+
+	text-align: center;
+	font-size: 2em;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.leftnav {
+	position: absolute;
+	top: 50%; left 0%;
+	transform: translate(0%, -50%);
+	margin-left: 10px;
+	widht: 30px;
+	font-weight: bold;
+	text-shadow: 0px 0px 8px #000000, 0px 0px 6px #000000;
+
+}
+
+.leftnav2 {
+	position: absolute;
+	top: 60%; left 0%;
+	transform: translate(0%, -50%);
+	margin-left: 10px;
+	widht: 30px;
+	font-weight: bold;
+	text-shadow: 0px 0px 8px #000000, 0px 0px 6px #000000;
+	
+}
+
+.button {
+	border: 2px solid white;
+	padding: 15px;
+	margin: 0% 0% 0% 27%;
+	font-size: 1.2em;
+}
+
+.button2 {
+	border: 2px solid white;
+	padding: 15px;
+	margin: 0% 0% 0% 41%;
+	font-size: 1.2em;
+}
+
+#footer {
+	height: 10%;
+	background-color: #000;
+	text-align: center;
+}
+
+#footer a {
+	display: inline-block;
+	color: #FFF;
+	margin: 20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+body {
+	background-color: SkyBlue;
+}
+
+.box1 {
+
+	font-size: 50px;
+	background-color: #9D4502;
+	width: 339px;
+	background-image: linear-gradient(#FFEBDC, #9D4502);
+	box-shadow: 4px 6px 8px #888888;
+	text-shadow: 2px 2px #ff0000;
+	height: 200px;
+	width: 876px;
+}

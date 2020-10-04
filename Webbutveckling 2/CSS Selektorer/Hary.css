@@ -1,0 +1,31 @@
+a:hover {
+	color: red;
+}
+
+.bigLetter {
+	font-size: 2em;
+	font-weight: bold;
+	font-style: italic;
+	float: left;
+}
+
+.red {
+	border: 5px solid red;
+}
+
+.container {
+	background-color: lightgreen;
+}
+
+b {
+	border: 1px solid black;
+}
+
+.dashBlue {
+	border: 5px dashed blue;
+}
+
+#solidBorder {
+	border: 2px solid black;
+}
+	

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman|Gloria+Hallelujah');
+
+body {
+	background-color: #FEAB6D;
+}
+
+.box1 {
+	font-family: 'Charmonman', cursive;
+	font-size: 20px;
+	background-color: #9D4502;
+	/* height: 200px; */
+	width: 339px;
+	/* text-align: center; */
+	background-image: linear-gradient(#FFEBDC, #9D4502);
+	box-shadow: 4px 6px 8px #888888;
+}
+
+.box2 {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 20px;
+	background-color: #9D4502;
+	/* height: 200px; */
+	width: 339px;
+	/* text-align: center; */
+	background-image: linear-gradient(#FFEBDC, #9D4502);
+	box-shadow: 4px 6px 8px #888888;
+}

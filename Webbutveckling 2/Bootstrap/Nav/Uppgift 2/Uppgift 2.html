@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="Uppgift 2.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+		<a class="navbar-brand" href="#">
+			<img src='flower2.jpg' width='40' height="40" alt="flower">
+		
+		</a>
+		<ul class="nav nav-tabs">
+			<li class="active"><a style="color: white;" data-toggle="tab" href="#home">Home</a></li>
+			<li><a style="color: white;" data-toggle="tab" href="#menu1">Menu 1</a></li>
+			<li><a style="color: white;" data-toggle="tab" href="#menu2">Menu 2</a></li>
+			<li><a style="color: white;" data-toggle="tab" href="#menu3">Menu 3</a></li>
+		</ul>
+
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+			<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Dropdown
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Link 1</a>
+						<a class="dropdown-item" href="#">Link 2</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Link 3</a>
+					</div>
+			</li>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+<br>
+
+<div class="tab-content">
+	<div id="home" class="tab-pane fade in active">
+      <h1>HOME</h1>
+      <p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h1>Menu 1</h1>
+      <p>Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h1>Menu 2</h1>
+      <p>I motsättning till vad många tror, är inte Lorem Ipsum slumpvisa ord. Det har sina rötter i ett stycke klassiskt litteratur på latin från 45 år före år 0, och är alltså över 2000 år gammalt.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h1>Menu 3</h1>
+      <p>Richard McClintock, en professor i latin på Hampden-Sydney College i Virginia, översatte ett av de mer ovanliga orden, consectetur, från ett stycke Lorem Ipsum och fann dess ursprung genom att studera användningen av dessa ord i klassisk litteratur. </p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

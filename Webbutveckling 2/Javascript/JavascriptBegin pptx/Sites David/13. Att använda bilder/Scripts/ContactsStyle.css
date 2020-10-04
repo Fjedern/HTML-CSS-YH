@@ -1,0 +1,111 @@
+body {
+	background-color: skyblue;
+	font-family:'Courier New', Courier, monospace;
+	font-size: 1em;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+
+
+.center {
+	/* background-color: white; */
+	/* height: 200; */
+	/* widht: 200; */
+	/* margin: 100; */
+	
+	max-width: 61em;
+	min-width: 244px;
+	height: auto;
+	margin: auto;
+	border: 1px solid #1A3E4C;
+	padding: 5px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #595959;
+}
+
+.center:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.card {
+	border: 1px solid black;
+	float: left;
+	background-image: linear-gradient(darkblue, lightblue);
+	width: 312px;
+	margin: 5px;
+	height: 600px;
+}
+
+img {
+	width: 300px;
+	height: 400px;
+	padding: 6px 6px 3px 6px;
+	border-radius: 12px;
+	transition: .4s ease-out;
+}
+
+.descr{
+	text-align: left;
+	font-size: .8em;
+	height: 140px;
+	padding: 3px 6px 0 6px;
+	background-color: darkcyan;
+	margin: 43px 0px 0px 0px;
+}
+
+.clickme{
+	background-color: black;
+	height: 165px;
+	display: none;
+	margin: 20px 0px 0px 0px;
+	/* transition: height 1s; */
+	
+}
+
+.card:hover img{
+	transform: scale(1.05, 1.08);
+}
+
+.card:hover .descr{
+	display: none;
+}
+
+.card:hover .clickme{
+	display: block;
+	/* height: 140px; */
+	
+}
+
+.rödText{
+	color: red;
+}
+
+.greyText{
+	color: grey;
+}
+	
+.whiteText{
+	color: white;
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+	transition: height 2s;
+}
+
+.test:hover {
+    width: 300px;
+	height: 200px;
+}

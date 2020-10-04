@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.menu {
+	flex: 0 0 10vh;
+}
+
+.flexsegment {
+	display: flex;
+	height: 80vh;
+}
+
+.content {
+	flex: 1;
+}
+
+
+.sider {
+	flex: 0 0 20vw;
+}
+
+.footer {
+	flex: 0 0 10vh;
+}
+

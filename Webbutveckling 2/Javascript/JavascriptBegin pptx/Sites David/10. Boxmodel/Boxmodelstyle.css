@@ -1,0 +1,28 @@
+body {
+	background-color: #E7F3EF;
+}
+
+div {
+	background-color: #79BEA8;
+	box-shadow: 4px 6px 8px #888888;
+}
+
+.tagg1 {
+	margin: 20px;
+}
+
+.tagg2 {
+	margin: 20px;
+	padding: 20px;
+}
+
+.tagg3 {
+	margin: 20px;
+	padding: 20px;
+	border: 5px solid #448D76;
+}
+
+/* width: 425px; */
+/* padding: 20px; */
+/* border: 10px solid #448D76; */
+/* margin: 20px; */

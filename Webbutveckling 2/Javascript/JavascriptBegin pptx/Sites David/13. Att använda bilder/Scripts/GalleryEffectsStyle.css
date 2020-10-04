@@ -1,0 +1,95 @@
+body {
+	font-family:'Courier New', Courier, monospace;
+	font-size: 1em;
+	margin: 1em;
+	padding: 1em;
+	background-color: #67AFCB;
+}
+
+h1{
+	text-align: center;
+	color: #092834;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.center{
+	max-width: 61em;
+	min-width: 244px;
+	height: auto;
+	margin: auto;
+	border: 1px solid #1A3E4C;
+	padding: 5px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #595959;
+}
+
+.center:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.card{
+	width: 220px;
+	float: left;
+	margin: 10px;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	box-shadow: 0px 0px 3px #595959;
+	background-color: #67AFCB;
+	height: 223px;
+}
+
+	
+.card:hover{
+	box-shadow: 0px 0px 10px #595959;
+}
+
+img {
+	width: 200px;
+	height: 134px;
+	padding: 6px 6px 3px 6px;
+	border-radius: 12px;
+	transition: .4s ease-out;
+}
+
+.descr{
+	text-align: left;
+	font-size: .8em;
+	height: 55px;
+	padding: 3px 6px 0 6px;
+}
+
+.clickme{
+	height: 60px;
+	display: none;
+	text-align: center;
+	font-size: .8em;
+	font-weight: bold;
+	color: red;
+	/* height: 52px; */
+	padding: 6px 6px 9 6px;
+	border-radius: 4px;
+}
+
+.card:hover img{
+	transform: scale(1.05, 1.08);
+}
+
+.card:hover .descr{
+	display: none;
+}
+
+.card:hover .clickme{
+	display: block;
+}
+
+
+
+
+
+

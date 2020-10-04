@@ -1,0 +1,24 @@
+body{
+	background-color: lightblue;
+}
+
+div{
+	border-radius: 20px;
+	text-align: center;
+	background-color: lightblue;
+	color: white;
+	border: 2px solid white;
+	width: 85px;
+	margin: 10px 0px 0px 0px;
+	padding: 20px;
+}
+
+.hover:hover{
+	border-color: blue;
+	color: blue;
+	box-shadow: 6px 6px 5px #888888;
+}
+
+.active:active{
+	background-color: blue;
+}

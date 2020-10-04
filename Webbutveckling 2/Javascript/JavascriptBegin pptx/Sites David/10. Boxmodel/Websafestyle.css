@@ -1,0 +1,22 @@
+body {
+	font-family:'Courier New', Courier, monospace;
+	background-color: #E3F08E;
+}
+
+div {
+	background-color: #CBE432;
+	box-shadow: 4px 6px 8px #888888;
+	margin: 20px;
+}
+
+.one {
+	font-family:'Arial', Helvetica, sans-serif;
+}
+
+.two {
+	font-family:'Courier New', Courier, monospace;
+}
+
+.three {
+	font-family:'Time New Roman', Times, Serif;
+}

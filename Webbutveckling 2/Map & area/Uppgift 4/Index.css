@@ -1,0 +1,63 @@
+body {
+	display: flex;
+	flex-direction: column;
+	width: 99%;
+	height: 100%;
+}
+
+video {
+	border: 5px dotted blue;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+.video {
+	flex: 1;
+	border: 5px solid teal;
+	margin: 5px;
+	padding: 10px;
+
+}
+
+.audio {
+	flex: 1;
+	border: 5px solid red;
+	margin: 5px;
+	padding: 10px;
+	height: 140px;
+
+}
+
+.PDF {
+	flex: 1;
+	border: 5px dotted red;
+	margin: 5px;
+	padding: 10px;
+}
+
+	
+
+.box1 {
+	background-color: magenta;
+	box-shadow: 5px 10px red;
+	text-align: center;
+}
+
+.box2 {
+	background-color: lightgreen;
+	box-shadow: 5px 10px blue;
+	text-align: center;
+}
+
+.box3 {
+	background-color: skyblue;
+	box-shadow: 5px 10px green;
+	text-align: center;
+}
+
+audio {
+	text-align: center;
+}

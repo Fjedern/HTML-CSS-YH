@@ -1,0 +1,23 @@
+dl {
+	border: 5px solid red;
+	padding: 20px;
+}
+
+dt {
+	background-color: yellow;
+	color: blue;
+	float: left;
+	width: 6%;
+	text-align: right;
+	padding: .25em;
+	clear: left;
+}
+
+dd {
+	background-color: green;
+	float: left;
+	width: 90%;
+	padding: .25em 0;
+}
+
+dl:after {content: "";display:table;clear:both;}
