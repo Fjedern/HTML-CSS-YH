@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    background: rgb(164,165,166);
+    background: linear-gradient(0deg, rgba(164,165,166,1) 0%, rgba(97,107,118,1) 51%);
+}
+
+#navbar {
+    height: 40px;
+	/* background-color: rgba(255,255,255,.2); */
+	
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	/* box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12); */
+	text-align: center;
+	
+	display: flex;
+    flex: 0 0 8vh;
+    justify-content: flex-end;
+	
+	/* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+}
+
+
+.navItem {
+    /* display: inline-block; */
+	font-weight: lighter;
+	font-size: 20px;
+	/* height: 50px; */
+	color: rgb(233, 233, 233);
+	/* padding: 20px 16px; */
+	text-decoration: none;
+	/* text-shadow: 0px 0px 8px #3b424f, 0px 0px 4px #FFF; */
+    transition: all 2s;
+    transition: border 1s;
+    margin-top: 5px;
+    display: inline-block;
+	position: relative;
+	/* background-color: salmon; */
+	/* margin-left: 5px; */
+	/* margin-right: 5px; */
+	
+	/* flex: 1; */
+	
+	/* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+
+    margin-right: 50px;
+
+    /* border-bottom: 1px solid white; */
+    /* padding-bottom: 1px; */
+}
+
+.navItem:after {
+    content: '';
+	display: block;
+	margin: auto;
+	height: 1px;
+	width: 100%;
+	background: white;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.navItem:hover:after {
+    width: 0%;
+	background: white;
+}
+
+.verContainer {
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+#myBox {
+    width: 50px;
+    height: 50px;
+    background-color: #191340;
+    border-radius: 10px;
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+    box-shadow: 0px 0px 10px 2px #465973;
+    float: left;
+}
+
+.button {
+    display: flex;
+    background-color: #191340;
+    margin: 10px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 10px 2px  #465973;
+    padding: 16px 31px;
+    color: #BACDD9;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    color: #BACDD9;
+}
+
+#textHär {
+    font-size: 2em;
+}
+
+.showResult {
+    font-size: 1.3em;
+    color: #BACDD9;
+    margin-left: 20px;
+}

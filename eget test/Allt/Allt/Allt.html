@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Allt Webb2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Allt.css">
+    </head>
+    <body>
+        <div id="navbar">
+            <a class="navItem" href="../Startsida/Startsida.html">Startsida</a>
+            <a class="navItem" href="../Allt/Allt.html">Webb2</a>
+            <a class="navItem" href="../2/2.html">Write</a>
+            <a class="navItem" href="">Sample</a>
+        </div>
+        <div class="verContainer">
+            <p>Animation</p>
+            <div class="container">
+                <div class="button" onclick="Go()">Go</div>
+                <div class="button" onclick="stanna()">Stop</div>
+            </div>
+            <p>Exempel från pptx</p>
+            <div class="container">
+                <div class="button" onclick="Alert()">Alert</div>
+                <div class="button" onclick="Prompt()">Prompt + Write</div>
+                <div class="button" onclick="goToWeb()">Google</div>
+
+                <input style="margin: 10px;" type="text" id="myNumber" value="9">
+                <div class="button" onclick="number()">Dela med 0</div>
+            </div>
+            <p>Date</p>
+            <div class="container">
+                <div class="button" onclick="date()">Datum</div>
+            </div>
+            <p>Math</p>
+            <div class="verContainer">
+                <div class="container">
+                    <div class="button" onclick="math1()">Välj nummer</div>
+                    <div class="button" onclick="date()">Log</div>
+                    <div class="button" onclick="date()">Square</div>
+                </div>
+                <div class="container">
+                    <p class="showResult" id="Text">test</p>
+                    <p class="showResult" id="Text2">test2</p>
+                </div>
+            </div>  
+        </div>
+
+        <div id="myBox"></div>
+
+        <script src="JS/Allt.js" async defer></script>
+        <script src="../Math.js" async defer></script>
+        <script src="../Startsida/JS/Exempel.js" async defer></script>
+        <script src="" async defer></script>
+        
+    </body>
+</html>
